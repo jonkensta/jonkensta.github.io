@@ -18,13 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: A blog.
-description: hello
+title: a most unfortunate blog
+description: >-
+  A most unfortunate blog.
+  Living and loving life.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jonkensta.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: jonkensta
 
 # Build settings
+permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-feed
 
