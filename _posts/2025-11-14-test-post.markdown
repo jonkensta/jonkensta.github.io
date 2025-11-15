@@ -1,0 +1,23 @@
+---
+layout: post
+title: "My First Real Post"
+date: 2025-11-14 21:00:00 -0600
+categories: test
+---
+
+This is a test post to see how the minimal blog looks.
+
+## It supports markdown
+
+- Bullet points
+- Look nice
+- And simple
+
+You can write **bold** and *italic* text.
+
+```python
+def hello_world():
+    print("Hello from my blog!")
+```
+
+And that's it. Simple and clean.
